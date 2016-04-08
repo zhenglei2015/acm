@@ -14,7 +14,7 @@ char board[MAXB][MAXB];
 int stat[MAXB][MAXB][2]; // 0 R 1 D
 
 int main() {
-  freopen("acm.in", "r", stdin);
+//  freopen("acm.in", "r", stdin);
   while(scanf("%d %d", &n ,&m) != EOF) {
     for(int i = 1; i <=n ; i++) {
       char s[MAXB];
